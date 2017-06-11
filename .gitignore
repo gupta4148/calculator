@@ -1,0 +1,14 @@
+/public/.htaccess
+*.log
+*.patch
+*.diff
+*.gz
+*.mp4
+*.pdf
+*.sql
+/nbproject/
+.idea/*
+/vendor/
+composer.lock
+package.json
+/tests/reports/*

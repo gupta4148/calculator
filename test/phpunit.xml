@@ -1,0 +1,15 @@
+<phpunit bootstrap="../vendor/autoload.php"
+         beStrictAboutTestsThatDoNotTestAnything="true"
+         beStrictAboutOutputDuringTests="true"
+         beStrictAboutTestSize="true"
+         timeoutForSmallTests="3"
+         colors="true"
+         verbose="true"
+        >
+    <testsuites>
+        <testsuite name="Calculator Test">
+            <directory >./library/</directory>
+        </testsuite>
+    </testsuites>
+
+</phpunit>

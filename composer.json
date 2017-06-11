@@ -1,0 +1,19 @@
+{
+    "name": "user/calculator",
+    "description": "Calculator Test",
+    "authors": [
+        {
+            "name": "ganesh",
+            "email": "ganesh.c@simplilearn.com"
+        }
+    ],
+    "require": {},
+    "require-dev": {
+        "phpunit/phpunit": "^4.8",
+        "phpunit/phpunit-mock-objects": "^2.3",
+        "phake/phake": "@stable"
+    },
+    "autoload":{
+        "classmap":["app/library","app/scripts","app/model"]
+    }
+}
